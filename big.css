@@ -9,7 +9,7 @@ body {
   font-weight:bold;
 }
 
-*/1, h2, h3, p {
+h1, h2, h3, p {
   margin:0;
 }
 
@@ -24,24 +24,69 @@ a {
   text-decoration:none;
 }
 
-img {
-  /*width:100%;*/
+.invert {
+  color:#222;
+  text-shadow:
+    -1px -1px 0 #fff,
+    2px 2px 0 #fff,
+    5px 5px 0 #fff;
 }
 
-div {
-  cursor:pointer;
-  cursor:hand;
-  position:absolute;
-  top:0px;
-  left:0px;
-  padding:75px;
-  line-height:97%;
+.invert a {
+  color:#002788;
 }
 
-div.center {
-  text-align:center;
+small {
+  font-style:italic;
+  font-size:40%;
+  line-height:60%;
 }
 
-div.imageText {
-  text-shadow:0px 0px 5px rgba(0,0,0,0.2);
+.invert-fancy {
+  color:#222;
+  text-shadow:
+    1px 1px 0 #444,
+    2px 2px 0 #444,
+    3px 3px 0 #888,
+    6px 6px 0 #888,
+    8px 8px 0 #eee,
+    10px 10px 0 #eee,
+    20px 20px 0 #eee,
+    30px 30px 0 #eee,
+    40px 40px 0 rgba(255, 255, 255, 0.7),
+    60px 60px 0 rgba(255, 255, 255, 0.7),
+    80px 80px 0 rgba(255, 255, 255, 0.5),
+    90px 90px 0 rgba(255, 255, 255, 0.4)
+    ;
+}
+
+strong {
+  font-weight:normal;
+  color:#FFF707;
+}
+
+.b { color: blue; }
+.r { color: red; }
+.y { color: yellow; }
+.g { color: green; }
+.singlecentre {
+  background-repeat:no-repeat;
+  background-position:50% -50%;
+}
+
+/*custom black font class*/
+.black {
+  color:black;
+}
+
+/*custom 100% image class*/
+.img100pc {
+  width:100%;
+}
+
+/*custom slide background class*/
+.slide3bck {
+  background: url(_img/mapquest_normal.jpg);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
 }
