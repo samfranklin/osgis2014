@@ -15,7 +15,11 @@ h1, h2, h3, p {
 
 em, a {
   font-style:normal;
-  color:#8dbd0c;
+  color:#0000ff;
+  filter:alpha(opacity=70); /* IE */
+  -moz-opacity:0.7; /* Mozilla */
+  opacity: 0.7; /* CSS3 */
+
 }
 
 a {
@@ -85,10 +89,15 @@ strong {
   height:100%;
 }
 
+/*custom 100% image class*/
+.img100Wpc {
+  /*width:100%;*/
+  width:100%;
+}
 
 /*custom slide background class*/
-.slide3bck {
-  background: url(_img/mapquest_normal.jpg);
+.slidereid {
+  background: url(img/reidhoffman-1.jpg);
   background-size: 100% 100%;
   background-repeat:no-repeat;
 }
