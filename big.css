@@ -83,6 +83,22 @@ strong {
   color:#0000FF;
 }
 
+/*solid red text*/
+.light {
+  color:#FF0000;
+  filter:alpha(opacity=100); /* IE */
+  -moz-opacity:1; /* Mozilla */
+  opacity: 1; /* CSS3 */
+}
+
+/*nice green*/
+.nicegreen {
+  color:#8DBD0C;
+  filter:alpha(opacity=100); /* IE */
+  -moz-opacity:1; /* Mozilla */
+  opacity: 1; /* CSS3 */
+}
+
 /*custom 100% image class*/
 .img100pc {
   /*width:100%;*/
